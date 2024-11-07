@@ -1,7 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import Logo from "/Content.png"; // Replace with your logo path
-import Sponsors from "/Sponsors.png"; // Replace with your logo path
 
 interface FeatureProps {
   title: string;
@@ -50,7 +48,7 @@ const Feature: React.FC<FeatureProps> = () => {
         <div className="flex justify-center  pb-20">
           <Image
             className="text-7xl"
-            src={Logo}
+            src="/Logo.png"
             alt="Logo"
             width={950}
             height={910}
@@ -168,7 +166,7 @@ const Feature: React.FC<FeatureProps> = () => {
         <div className="flex justify-center items-center pb-20">
           <Image
             className="text-9xl"
-            src={Sponsors}
+            src="/Sponsors.png"
             alt="Logo"
             width={1400}
             height={910}
