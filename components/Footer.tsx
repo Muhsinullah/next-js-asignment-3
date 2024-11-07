@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import logo from "../public/logo.png"; // Replace this with the actual path to your logo
+import Logo from "/Logo.png"; // Replace this with the actual path to your logo
 
 const Footer = () => {
   return (
@@ -9,7 +9,7 @@ const Footer = () => {
         {/* Left section */}
         <div className="mb-8 md:mb-0 ">
           <div className="flex items-center mb-2">
-            <Image src={logo} alt="Logo" width={130} height={80} />
+            <Image src={Logo} alt="Logo" width={130} height={80} />
           </div>
           <p className="text-[11px]">
             whitepace was created for <br /> the new ways we live and <br />{" "}
