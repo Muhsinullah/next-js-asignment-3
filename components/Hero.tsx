@@ -54,7 +54,7 @@ const Hero = () => {
           Project management software that enables your teams to collaborate,
           plan, <br className="hidden md:block" /> analyze and manage everyday tasks.
         </p>
-        <button className="bg-[#4F9CF9] text-white  text-xs py-3 px-3 rounded flex items-center">
+        <button className="bg-[#4F9CF9] text-white hover:bg-[#347ed8] text-xs py-3 px-3 rounded flex items-center">
           Get Started
           <svg
             className="ml-2 w-4 h-4"

@@ -25,7 +25,7 @@ const Feature: React.FC<FeatureProps> = () => {
               expressions and <br /> diagrams directly from the app Take photos
               with the mobile app and save them <br /> to a note.
             </p>
-            <button className="bg-[#4F9CF9] text-white text-xs py-3 px-3 rounded flex items-center">
+            <button className="bg-[#4F9CF9] text-white  hover:bg-[#347ed8] text-xs py-3 px-3 rounded flex items-center">
               Try Whitepace free
               <svg
                 className="ml-2 w-4 h-4"
@@ -67,7 +67,7 @@ const Feature: React.FC<FeatureProps> = () => {
             Use the web clipper extension, available on Chrome and Firefox, to
             save web pages <br /> or take screenshots as notes. .
           </p>
-          <button className="bg-[#4F9CF9] text-white text-xs py-3 px-5 rounded flex items-center">
+          <button className="bg-[#4F9CF9]  text-white  hover:bg-[#347ed8] text-xs py-3 px-5 rounded flex items-center">
           Let&apos;s go
             <svg
               className="ml-2 w-4 h-4"
@@ -104,7 +104,7 @@ const Feature: React.FC<FeatureProps> = () => {
             editors (Rich <br /> Text or Markdown). Or create your own scripts
             and plugins using the Extension <br /> API.
           </p>
-          <button className="bg-[#4F9CF9] text-white text-xs py-3 px-6 mb-14 rounded flex items-center">
+          <button className="bg-[#4F9CF9]  hover:bg-[#347ed8] text-white text-xs py-3 px-6 mb-14 rounded flex items-center">
             Let&apos;s go
             <svg
               className="ml-2 w-4 h-4"
@@ -140,7 +140,7 @@ const Feature: React.FC<FeatureProps> = () => {
            OneDrive. The app is available on Windows, macOS, Linux, Android
             and iOS. A terminal app is also available!
           </p>
-          <button className="bg-[#4F9CF9] flex justify-center mx-96  text-white text-xs py-3  px-5 rounded ">
+          <button className="bg-[#4F9CF9] flex justify-center mx-96  hover:bg-[#347ed8] text-white text-xs py-3  px-5 rounded ">
           Try Taskey
             <svg
               className="ml-2 w-4 h-4"

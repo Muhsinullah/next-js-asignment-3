@@ -18,13 +18,13 @@ const Navbar: React.FC = () => {
       
       {/* Hamburger Icon for Mobile */}
       <div className="lg:hidden flex items-center">
-        <button onClick={toggleMenu} className="text-white focus:outline-none">
-          {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
+        <button onClick={toggleMenu} className="text-white hover:text-gray-300 focus:outline-none">
+          {isOpen ? <FaTimes size={20} /> : <FaBars size={20} />}
         </button>
       </div>
 
       {/* Menu Items */}
-      <ul className={`flex-col lg:flex-row lg:flex space-x-6 ${isOpen ? 'flex' : 'hidden'} lg:space-x-6 items-center lg:items-center absolute lg:static top-16 right-6 lg:top-0 bg-[#043873] lg:bg-transparent w-3/4 lg:w-auto rounded-lg lg:rounded-none shadow-md lg:shadow-none p-6 lg:p-0`}>
+      <ul className={`flex-col lg:flex-row lg:flex space-x-6 ${isOpen ? 'flex' : 'hidden'}  lg:space-x-6 items-center lg:items-center absolute lg:static top-16 right-6 lg:top-0 bg-[#043873] lg:bg-transparent w-3/4 lg:w-auto rounded-lg lg:rounded-none shadow-md lg:shadow-none p-6 lg:p-0`}>
         <li className="text-xs py-2">Products</li>
         <li className="text-xs py-2">Solutions</li>
         <li className="text-xs py-2">Resources</li>
