@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
 
+
+
 interface FeatureProps {
   title: string;
   description: string;
@@ -48,7 +50,7 @@ const Feature: React.FC<FeatureProps> = () => {
         <div className="flex justify-center  pb-20">
           <Image
             className="text-7xl"
-            src="/Logo.png"
+            src="/Content.png"
             alt="Logo"
             width={950}
             height={910}
@@ -166,7 +168,7 @@ const Feature: React.FC<FeatureProps> = () => {
         <div className="flex justify-center items-center pb-20">
           <Image
             className="text-9xl"
-            src="/Sponsors.png"
+            src="/sponsors.png"
             alt="Logo"
             width={1400}
             height={910}
